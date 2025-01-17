@@ -1,0 +1,69 @@
+.custom-bg {
+    background-color: #1e293b !important;
+}
+
+body.custom-bg {
+    background-color: #fbfdfc;
+    color: #FBFCFD;
+}
+
+body.custom-bg a {
+    color: #fbfdfb;
+}
+
+body.custom-bg a:hover {
+    color: #FBFCFD;
+}
+
+.text-dark {
+    color: #FBFCFD !important; 
+}
+
+.text-muted {
+    color: rgba(255, 255, 255, 0.6) !important; 
+}
+
+.card {
+    border: 0 solid #e5e7eb;
+    background-color: rgba(31, 41, 55, var(--tw-bg-opacity, 1)); 
+    color: #d1d0d0; 
+}
+
+.text-white-custom {
+    color: d1d0d0;
+}
+
+.card-title {
+    color: #f7f7f7; 
+}
+
+.card-subtitle {
+    color: #6c757d; 
+}
+
+.card ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.card ul li {
+    color: #d1d0d0; 
+}
+
+
+.experience-card,
+.education-card,
+.skills-card,
+.certification-card,
+.about-text {
+    width: 85%;
+    margin: 0 auto; 
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
